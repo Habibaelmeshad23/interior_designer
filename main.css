@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+#home{
+    height: 900px;
+    width: 100%;
+    background-position: center; 
+    background-size: 100% 100%;
+    background-image: url('./img/header2.jpg.avif');
+    
+}
+.overlay{
+    background-color: rgba(0,0,0, 0.6);
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.navbar{
+    height: 80px;
+    background-color: rgba(0, 0,0, 0.7); 
+    /* align-items: center;
+    justify-content: space-between; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+}
+.logo{
+    width:140px;
+    height: 100px;
+    padding-left: 10px;
+    float: left;
+    
+
+}
+.link{
+    float: right;
+    width: 50%;
+}
+
+.navbar .link ul li{
+   float: left;
+    margin: 0 12px;
+    padding-top: 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #EEE;
+    text-transform: uppercase;
+}
+.content{
+     text-align: center;
+     color: #EEE;
+     
+}
+
+.content h1{
+    font-size: 35px;
+    margin-top: 25px;
+}
+#about{
+    height: 500px;
+}
+#about .info{
+    background-color: rgb(207, 202, 202);
+    width: 50%;
+    height: 500px;
+    float: left;
+    padding: 100px 50px;
+    /* text-align: center; */
+}
+#about .info p{
+padding-top: 15px;
+font-size: 20px;
+line-height: 25px;
+}
+.btn1{
+    padding: 10px;
+    border: 2px solid gray;
+    color: rgb(29, 95, 95);
+    font-size: 15px;
+    margin-top: 15px;
+    transition: all;
+}
+.btn1:hover{
+    background-color: cadetblue;
+}
+#about .img{
+    width: 50%;
+    background-color: gray;
+    height: 500px;
+    float: right;
+    
+}
+#about .img img{
+    width: 400px;
+    height: 480px;
+    margin: 20px 75px;
+    border: 3px solid black;
+}
+#do{
+    background-color: aqua;
+    height: 500px;
+}
+#do .img{
+    width: 50%;
+    background-color: rgb(139, 119, 91);
+    height: 500px;
+    float: left;
+    
+}
+#do .info{
+    background-color: rgb(207, 202, 202);
+    width: 50%;
+    height: 500px;
+    float: left;
+    padding: 100px 50px;
+    /* text-align: center; */
+}
+#do .img img{
+    width: 450px;
+    height: 480px;
+    margin: 20px 50px;
+    border: 3px solid black;
+}
+#goal{
+    height: 500px;
+}
+#goal .info{
+    background-color: rgb(207, 202, 202);
+    width: 50%;
+    height: 500px;
+    float: left;
+    padding: 100px 50px;
+    /* text-align: center; */
+}
+#goal .img{
+    width: 50%;
+    background-color: rgb(176, 151, 121);
+    height: 500px;
+    float: right;
+    
+}
+#goal .img img{
+    width: 450px;
+    height: 480px;
+    margin: 20px 50px;
+    border: 3px solid black;
+}
+#contact{
+    background-image: url(./img/im4.jpg );
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#contact .overlay2{
+    width: 50%;
+    float: right;
+    height: 500px;
+    background-color: rgb(0, 0, 0,0.6);
+    padding: 50px;
+    
+
+}
+#contact .overlay2 h1{
+    color: #EEE;
+    /* text-align: center; */
+    
+}
+form{
+    width: 100%;
+    padding:30px;
+    
+    
+}
+input, textarea{
+    width: 80%;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+
+}
+button{
+    padding: 8px;
+    border: 2px solid gray;
+    color: rgb(29, 95, 95);
+    font-size: 18px;
+    margin-top: 15px;
+    transition: all;
+    width: 30%;
+    font-weight: 600;
+    border-radius: 10px;
+    
+    
+}
+button:hover{
+    background-color: cadetblue;
+}
+.popup{
+    width: 300px;
+    background:#EEE ;
+    border-radius: 6px;
+    padding: 10px;
+    height: 100px;
+    text-align: center;
+    margin: 10px;
+   
+}
+.hidden{
+    visibility:hidden; 
+}
+.popup p{
+    margin-bottom: 1rem;
+}
+.popup btn{
+    padding: 5px 15px ;
+    border: 1px solid gray;
+    /* color: rgb(29, 95, 95); */
+    transition: all;
+    border-radius: 8px;
+    background: #57a939;
+    box-shadow:0 2px 5px rgba(0, 0,0, 0.6);
+    
+}
+
+.popup btn:hover{
+    background-color: cadetblue;
+}
+
+#footer{
+
+    background-color: gray;
+    height: 150px;
+    width: 100%;
+}
+#footer .container{
+    width: 80%;
+    margin: auto;
+    height: 150px;
+    text-align: center;
+    padding-top: 20px; }
+    
+#footer .container p{
+        padding: 8px;
+}
+i{
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
